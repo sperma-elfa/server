@@ -1,28 +1,20 @@
-[02-03-2024 11:26:50]	INFO	---------------------------------------------------------------------=[ aCis ]
-[02-03-2024 11:26:50]	INFO	Loading loginserver configuration files.
-[02-03-2024 11:26:50]	INFO	MLog clients using java 1.4+ standard logging.
-[02-03-2024 11:26:51]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
-[02-03-2024 11:26:51]	INFO	----------------------------------------------------------=[ LoginController ]
-[02-03-2024 11:26:51]	INFO	Loading LoginController...
-[02-03-2024 11:26:52]	INFO	Cached 10 KeyPairs for RSA communication.
-[02-03-2024 11:26:52]	INFO	Stored 20 keys for Blowfish communication.
-[02-03-2024 11:26:52]	INFO	Loaded 127 server names.
-[02-03-2024 11:26:52]	INFO	Loaded 1 registered gameserver(s).
-[02-03-2024 11:26:52]	INFO	Cached 10 RSA keys for gameserver communication.
-[02-03-2024 11:26:52]	INFO	-----------------------------------------------------------------=[ Ban List ]
-[02-03-2024 11:26:52]	INFO	Loaded 0 banned IP(s).
-[02-03-2024 11:26:52]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
-[02-03-2024 11:26:52]	INFO	Listening for gameservers on 192.168.0.128:9014
-[02-03-2024 11:26:52]	INFO	Loginserver ready on 192.168.0.128:2106
-[02-03-2024 11:26:52]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
-[02-03-2024 11:27:08]	INFO	Hooked [43] Cadmus gameserver on: 192.168.0.128
-[02-03-2024 11:33:48]	WARNING	Exception while retrieving account info for 'sperma3'!
-[02-03-2024 11:34:16]	WARNING	Could not finish login process!
-[02-03-2024 11:35:45]	INFO	GameServer [43] Cadmus: Connection reset.
-[02-03-2024 11:35:45]	INFO	GameServer [43] Cadmus is now set as disconnected.
-[02-03-2024 11:36:02]	INFO	Hooked [43] Cadmus gameserver on: 192.168.0.128
-[02-03-2024 11:37:16]	INFO	GameServer [43] Cadmus: Connection reset.
-[02-03-2024 11:37:16]	INFO	GameServer [43] Cadmus is now set as disconnected.
-[02-03-2024 11:37:34]	INFO	Hooked [43] Cadmus gameserver on: 192.168.0.128
-[02-03-2024 11:37:50]	INFO	GameServer [43] Cadmus: Connection reset.
-[02-03-2024 11:37:50]	INFO	GameServer [43] Cadmus is now set as disconnected.
+[02-03-2024 11:52:25]	INFO	---------------------------------------------------------------------=[ aCis ]
+[02-03-2024 11:52:25]	INFO	Loading loginserver configuration files.
+[02-03-2024 11:52:25]	INFO	MLog clients using java 1.4+ standard logging.
+[02-03-2024 11:52:25]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
+[02-03-2024 11:52:26]	INFO	----------------------------------------------------------=[ LoginController ]
+[02-03-2024 11:52:26]	INFO	Loading LoginController...
+[02-03-2024 11:52:26]	INFO	Cached 10 KeyPairs for RSA communication.
+[02-03-2024 11:52:26]	INFO	Stored 20 keys for Blowfish communication.
+[02-03-2024 11:52:26]	INFO	Loaded 127 server names.
+[02-03-2024 11:52:26]	INFO	Loaded 1 registered gameserver(s).
+[02-03-2024 11:52:26]	INFO	Cached 10 RSA keys for gameserver communication.
+[02-03-2024 11:52:26]	INFO	-----------------------------------------------------------------=[ Ban List ]
+[02-03-2024 11:52:26]	INFO	Loaded 0 banned IP(s).
+[02-03-2024 11:52:26]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
+[02-03-2024 11:52:26]	INFO	Listening for gameservers on 192.168.0.128:9014
+[02-03-2024 11:52:26]	INFO	Loginserver ready on 192.168.0.128:2106
+[02-03-2024 11:52:26]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
+[02-03-2024 11:52:43]	INFO	Hooked [43] Cadmus gameserver on: 195.222.85.132
+[02-03-2024 11:53:02]	INFO	GameServer [43] Cadmus: Connection reset.
+[02-03-2024 11:53:02]	INFO	GameServer [43] Cadmus is now set as disconnected.

@@ -1,17 +1,18 @@
-[02-03-2024 10:16:30]	INFO	---------------------------------------------------------------------=[ aCis ]
-[02-03-2024 10:16:30]	INFO	Loading loginserver configuration files.
-[02-03-2024 10:16:30]	INFO	MLog clients using java 1.4+ standard logging.
-[02-03-2024 10:16:30]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
-[02-03-2024 10:16:31]	INFO	----------------------------------------------------------=[ LoginController ]
-[02-03-2024 10:16:31]	INFO	Loading LoginController...
-[02-03-2024 10:16:31]	INFO	Cached 10 KeyPairs for RSA communication.
-[02-03-2024 10:16:31]	INFO	Stored 20 keys for Blowfish communication.
-[02-03-2024 10:16:31]	INFO	Loaded 127 server names.
-[02-03-2024 10:16:31]	INFO	Loaded 1 registered gameserver(s).
-[02-03-2024 10:16:31]	INFO	Cached 10 RSA keys for gameserver communication.
-[02-03-2024 10:16:31]	INFO	-----------------------------------------------------------------=[ Ban List ]
-[02-03-2024 10:16:31]	INFO	Loaded 0 banned IP(s).
-[02-03-2024 10:16:31]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
-[02-03-2024 10:16:32]	INFO	Listening for gameservers on 192.168.0.128:9014
-[02-03-2024 10:16:32]	INFO	Loginserver ready on 192.168.0.128:2106
-[02-03-2024 10:16:32]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
+[02-03-2024 11:50:57]	INFO	---------------------------------------------------------------------=[ aCis ]
+[02-03-2024 11:50:57]	INFO	Loading loginserver configuration files.
+[02-03-2024 11:50:57]	INFO	MLog clients using java 1.4+ standard logging.
+[02-03-2024 11:50:58]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
+[02-03-2024 11:50:58]	INFO	----------------------------------------------------------=[ LoginController ]
+[02-03-2024 11:50:58]	INFO	Loading LoginController...
+[02-03-2024 11:50:59]	INFO	Cached 10 KeyPairs for RSA communication.
+[02-03-2024 11:50:59]	INFO	Stored 20 keys for Blowfish communication.
+[02-03-2024 11:50:59]	INFO	Loaded 127 server names.
+[02-03-2024 11:50:59]	INFO	Loaded 1 registered gameserver(s).
+[02-03-2024 11:50:59]	INFO	Cached 10 RSA keys for gameserver communication.
+[02-03-2024 11:50:59]	INFO	-----------------------------------------------------------------=[ Ban List ]
+[02-03-2024 11:50:59]	INFO	Loaded 0 banned IP(s).
+[02-03-2024 11:50:59]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
+[02-03-2024 11:50:59]	INFO	Listening for gameservers on 192.168.0.128:9014
+[02-03-2024 11:50:59]	INFO	Loginserver ready on 192.168.0.128:2106
+[02-03-2024 11:50:59]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
+[02-03-2024 11:51:15]	INFO	Hooked [43] Cadmus gameserver on: 195.222.85.132
