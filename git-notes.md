@@ -11,6 +11,8 @@ git clone https://github.com/kitiket1999/имя_репозитория.git
 git init
 cd имя каталога //*перейти в каталог с именем, соответствующим имени подключаемого репозитория
 git remote add origin https://github.com/kitiket1999/имя_репозитория.git
+git remote add origin https://github.com/sperma-elfa/server.git
+
 git remote remove origin //отвязывает адрес репозитория от текущей дериктории (cd) 
 
 git add -A или название файла //(промежуточный этап, перед коммитом и пушем, добавляющий все(-А) файлы из рабочей области в staging area)
