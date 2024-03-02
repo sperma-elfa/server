@@ -1,86 +1,17 @@
-[02-03-2024 09:18:32]	INFO	---------------------------------------------------------------------=[ aCis ]
-[02-03-2024 09:19:11]	INFO	Loading loginserver configuration files.
-[02-03-2024 09:19:11]	INFO	MLog clients using java 1.4+ standard logging.
-[02-03-2024 09:19:11]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
-[02-03-2024 09:19:12]	INFO	----------------------------------------------------------=[ LoginController ]
-[02-03-2024 09:19:12]	INFO	Loading LoginController...
-[02-03-2024 09:19:12]	INFO	Cached 10 KeyPairs for RSA communication.
-[02-03-2024 09:19:12]	INFO	Stored 20 keys for Blowfish communication.
-[02-03-2024 09:19:12]	INFO	Loaded 127 server names.
-[02-03-2024 09:19:12]	INFO	Loaded 0 registered gameserver(s).
-[02-03-2024 09:19:12]	INFO	Cached 10 RSA keys for gameserver communication.
-[02-03-2024 09:19:12]	INFO	-----------------------------------------------------------------=[ Ban List ]
-[02-03-2024 09:19:12]	INFO	Loaded 0 banned IP(s).
-[02-03-2024 09:19:12]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
-[02-03-2024 09:19:12]	INFO	Listening for gameservers on 192.168.0.128:9014
-[02-03-2024 09:19:12]	INFO	Loginserver ready on 192.168.0.128:2106
-[02-03-2024 09:19:12]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
-[02-03-2024 09:47:42]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:47:52]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:48:02]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:48:12]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:48:22]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:48:32]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:48:42]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:48:52]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:49:02]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:49:12]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:49:22]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:49:32]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:49:42]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:49:52]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:50:21]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:50:31]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:50:41]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:50:51]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:51:01]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:51:11]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:51:21]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:51:31]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:51:41]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:51:51]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:52:01]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:52:11]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:52:21]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:52:31]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:52:41]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:52:51]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:53:23]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:53:33]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:53:43]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:53:53]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:54:08]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:55:46]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:55:56]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:56:06]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:56:16]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:56:26]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:56:36]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:56:46]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:56:56]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:57:06]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:57:16]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:57:26]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:57:36]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:57:46]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:57:56]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:58:06]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:58:16]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:58:26]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:58:36]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:58:47]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:58:57]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:59:07]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:59:17]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:59:27]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 09:59:37]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:00:45]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:00:55]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:01:05]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:01:15]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:01:25]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:01:35]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:01:45]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:01:55]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:02:05]	INFO	GameServer (192.168.0.128): Socket closed.
-[02-03-2024 10:02:15]	INFO	GameServer (192.168.0.128): Socket closed.
+[02-03-2024 10:16:30]	INFO	---------------------------------------------------------------------=[ aCis ]
+[02-03-2024 10:16:30]	INFO	Loading loginserver configuration files.
+[02-03-2024 10:16:30]	INFO	MLog clients using java 1.4+ standard logging.
+[02-03-2024 10:16:30]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
+[02-03-2024 10:16:31]	INFO	----------------------------------------------------------=[ LoginController ]
+[02-03-2024 10:16:31]	INFO	Loading LoginController...
+[02-03-2024 10:16:31]	INFO	Cached 10 KeyPairs for RSA communication.
+[02-03-2024 10:16:31]	INFO	Stored 20 keys for Blowfish communication.
+[02-03-2024 10:16:31]	INFO	Loaded 127 server names.
+[02-03-2024 10:16:31]	INFO	Loaded 1 registered gameserver(s).
+[02-03-2024 10:16:31]	INFO	Cached 10 RSA keys for gameserver communication.
+[02-03-2024 10:16:31]	INFO	-----------------------------------------------------------------=[ Ban List ]
+[02-03-2024 10:16:31]	INFO	Loaded 0 banned IP(s).
+[02-03-2024 10:16:31]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
+[02-03-2024 10:16:32]	INFO	Listening for gameservers on 192.168.0.128:9014
+[02-03-2024 10:16:32]	INFO	Loginserver ready on 192.168.0.128:2106
+[02-03-2024 10:16:32]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]

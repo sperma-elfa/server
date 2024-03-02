@@ -1,37 +1,23 @@
-[27-02-2024 17:01:35]	INFO	---------------------------------------------------------------------=[ aCis ]
-[27-02-2024 17:01:36]	INFO	Loading loginserver configuration files.
-[27-02-2024 17:01:36]	INFO	MLog clients using java 1.4+ standard logging.
-[27-02-2024 17:01:36]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
-[27-02-2024 17:01:36]	INFO	----------------------------------------------------------=[ LoginController ]
-[27-02-2024 17:01:36]	INFO	Loading LoginController...
-[27-02-2024 17:01:37]	INFO	Cached 10 KeyPairs for RSA communication.
-[27-02-2024 17:01:37]	INFO	Stored 20 keys for Blowfish communication.
-[27-02-2024 17:01:37]	INFO	Loaded 127 server names.
-[27-02-2024 17:01:37]	INFO	Loaded 0 registered gameserver(s).
-[27-02-2024 17:01:37]	INFO	Cached 10 RSA keys for gameserver communication.
-[27-02-2024 17:01:37]	INFO	-----------------------------------------------------------------=[ Ban List ]
-[27-02-2024 17:01:37]	INFO	Loaded 0 banned IP(s).
-[27-02-2024 17:01:37]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
-[27-02-2024 17:01:37]	INFO	Listening for gameservers on 192.168.0.128:9014
-[27-02-2024 17:01:37]	INFO	Loginserver ready on 192.168.0.128:2106
-[27-02-2024 17:01:37]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@59b95481 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@878f407 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4fd75537 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4f923b6a -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@141dbd78 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@33a3a57 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4bdf5f87 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@32c1c0cc -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@22ccc4a7 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
-[27-02-2024 18:01:36]	WARNING	com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@797092ca -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (0). Last acquisition attempt exception: 
-[27-02-2024 18:01:36]	WARNING	Having failed to acquire a resource, com.mchange.v2.resourcepool.BasicResourcePool@7c6908d7 is interrupting all Threads waiting on a resource to check out. Will try again in response to new client requests.
+[02-03-2024 10:03:19]	INFO	---------------------------------------------------------------------=[ aCis ]
+[02-03-2024 10:03:19]	INFO	Loading loginserver configuration files.
+[02-03-2024 10:03:19]	INFO	MLog clients using java 1.4+ standard logging.
+[02-03-2024 10:03:19]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
+[02-03-2024 10:03:20]	INFO	----------------------------------------------------------=[ LoginController ]
+[02-03-2024 10:03:20]	INFO	Loading LoginController...
+[02-03-2024 10:03:20]	INFO	Cached 10 KeyPairs for RSA communication.
+[02-03-2024 10:03:20]	INFO	Stored 20 keys for Blowfish communication.
+[02-03-2024 10:03:20]	INFO	Loaded 127 server names.
+[02-03-2024 10:03:20]	INFO	Loaded 1 registered gameserver(s).
+[02-03-2024 10:03:20]	INFO	Cached 10 RSA keys for gameserver communication.
+[02-03-2024 10:03:20]	INFO	-----------------------------------------------------------------=[ Ban List ]
+[02-03-2024 10:03:20]	INFO	Loaded 0 banned IP(s).
+[02-03-2024 10:03:20]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
+[02-03-2024 10:03:20]	INFO	Listening for gameservers on 192.168.0.128:9014
+[02-03-2024 10:03:20]	INFO	Loginserver ready on 192.168.0.128:2106
+[02-03-2024 10:03:20]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
+[02-03-2024 10:03:40]	INFO	Hooked [43] Cadmus gameserver on: 192.168.0.128
+[02-03-2024 10:13:39]	INFO	GameServer [43] Cadmus: Connection reset.
+[02-03-2024 10:13:39]	INFO	GameServer [43] Cadmus is now set as disconnected.
+[02-03-2024 10:13:51]	WARNING	Exception while retrieving account info for 'sperma3'!
+[02-03-2024 10:13:53]	WARNING	Could not finish login process!
+[02-03-2024 10:13:56]	INFO	Hooked [43] Cadmus gameserver on: 192.168.0.128

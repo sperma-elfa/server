@@ -1,0 +1,277 @@
+мар. 02, 2024 11:34:04 AM net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo loadCharacterSelectInfo
+WARNING: Could not restore char info: Communications link failure
+
+The last packet successfully received from the server was 416 493 milliseconds ago.  The last packet sent successfully to the server was 2 milliseconds ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 416 493 milliseconds ago.  The last packet sent successfully to the server was 2 milliseconds ago.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3673)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4113)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2324)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:456)
+	at net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo.loadCharacterSelectInfo(CharSelectInfo.java:170)
+	at net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo.<init>(CharSelectInfo.java:28)
+	at net.sf.l2j.gameserver.LoginServerThread.run(LoginServerThread.java:225)
+	Suppressed: java.sql.SQLException: An SQLException was provoked by the following failure: java.util.ConcurrentModificationException
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:77)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:74)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:112)
+		at net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo.loadCharacterSelectInfo(CharSelectInfo.java:166)
+		... 2 more
+	Caused by: java.util.ConcurrentModificationException
+		at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605)
+		at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628)
+		at com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:322)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.checkinAllCachedStatements(NewPooledConnection.java:772)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.markClosedProxyConnection(NewPooledConnection.java:402)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:87)
+		... 3 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3119)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3573)
+	... 11 more
+
+мар. 02, 2024 11:35:24 AM net.sf.l2j.gameserver.model.itemcontainer.PcInventory restoreVisibleInventory
+WARNING: Could not restore inventory: Communications link failure
+
+The last packet successfully received from the server was 496 756 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 496 756 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3673)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4113)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2324)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:456)
+	at net.sf.l2j.gameserver.model.itemcontainer.PcInventory.restoreVisibleInventory(PcInventory.java:633)
+	at net.sf.l2j.gameserver.model.CharSelectInfoPackage.<init>(CharSelectInfoPackage.java:45)
+	at net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo.restoreChar(CharSelectInfo.java:238)
+	at net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo.loadCharacterSelectInfo(CharSelectInfo.java:174)
+	at net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo.<init>(CharSelectInfo.java:28)
+	at net.sf.l2j.gameserver.LoginServerThread.run(LoginServerThread.java:225)
+	Suppressed: java.sql.SQLException: An SQLException was provoked by the following failure: java.util.ConcurrentModificationException
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:77)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:74)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:112)
+		at net.sf.l2j.gameserver.model.itemcontainer.PcInventory.restoreVisibleInventory(PcInventory.java:629)
+		... 5 more
+	Caused by: java.util.ConcurrentModificationException
+		at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605)
+		at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628)
+		at com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:322)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.checkinAllCachedStatements(NewPooledConnection.java:772)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.markClosedProxyConnection(NewPooledConnection.java:402)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:87)
+		... 6 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3119)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3573)
+	... 14 more
+
+мар. 02, 2024 11:35:28 AM net.sf.l2j.gameserver.model.item.instance.ItemInstance restoreAttributes
+SEVERE: Could not restore augmentation data for item Apprentice's Wand (6) from DB: Communications link failure
+
+The last packet successfully received from the server was 510 621 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 510 621 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3673)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4113)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2324)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:456)
+	at net.sf.l2j.gameserver.model.item.instance.ItemInstance.restoreAttributes(ItemInstance.java:716)
+	at net.sf.l2j.gameserver.model.item.instance.ItemInstance.restoreFromDb(ItemInstance.java:912)
+	at net.sf.l2j.gameserver.model.itemcontainer.Inventory.restore(Inventory.java:956)
+	at net.sf.l2j.gameserver.model.itemcontainer.PcInventory.restore(PcInventory.java:621)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.<init>(Player.java:610)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.restore(Player.java:5117)
+	at net.sf.l2j.gameserver.network.L2GameClient.loadCharFromDisk(L2GameClient.java:406)
+	at net.sf.l2j.gameserver.network.clientpackets.CharacterSelected.runImpl(CharacterSelected.java:55)
+	at net.sf.l2j.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:50)
+	at net.sf.l2j.gameserver.network.L2GameClient.run(L2GameClient.java:749)
+	at net.sf.l2j.commons.concurrent.ThreadPool$TaskWrapper.run(ThreadPool.java:248)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.sql.SQLException: An SQLException was provoked by the following failure: java.util.ConcurrentModificationException
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:77)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:74)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:112)
+		at net.sf.l2j.gameserver.model.item.instance.ItemInstance.restoreAttributes(ItemInstance.java:712)
+		... 13 more
+	Caused by: java.util.ConcurrentModificationException
+		at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605)
+		at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628)
+		at com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:322)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.checkinAllCachedStatements(NewPooledConnection.java:772)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.markClosedProxyConnection(NewPooledConnection.java:402)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:87)
+		... 14 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3119)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3573)
+	... 22 more
+
+мар. 02, 2024 11:35:28 AM net.sf.l2j.gameserver.model.item.instance.ItemInstance restoreAttributes
+SEVERE: Could not restore augmentation data for item Apprentice's Tunic (425) from DB: Communications link failure
+
+The last packet successfully received from the server was 510 689 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 510 689 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3673)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4113)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2324)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:456)
+	at net.sf.l2j.gameserver.model.item.instance.ItemInstance.restoreAttributes(ItemInstance.java:716)
+	at net.sf.l2j.gameserver.model.item.instance.ItemInstance.restoreFromDb(ItemInstance.java:912)
+	at net.sf.l2j.gameserver.model.itemcontainer.Inventory.restore(Inventory.java:956)
+	at net.sf.l2j.gameserver.model.itemcontainer.PcInventory.restore(PcInventory.java:621)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.<init>(Player.java:610)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.restore(Player.java:5117)
+	at net.sf.l2j.gameserver.network.L2GameClient.loadCharFromDisk(L2GameClient.java:406)
+	at net.sf.l2j.gameserver.network.clientpackets.CharacterSelected.runImpl(CharacterSelected.java:55)
+	at net.sf.l2j.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:50)
+	at net.sf.l2j.gameserver.network.L2GameClient.run(L2GameClient.java:749)
+	at net.sf.l2j.commons.concurrent.ThreadPool$TaskWrapper.run(ThreadPool.java:248)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.sql.SQLException: An SQLException was provoked by the following failure: java.util.ConcurrentModificationException
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:77)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:74)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:112)
+		at net.sf.l2j.gameserver.model.item.instance.ItemInstance.restoreAttributes(ItemInstance.java:712)
+		... 13 more
+	Caused by: java.util.ConcurrentModificationException
+		at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605)
+		at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628)
+		at com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:322)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.checkinAllCachedStatements(NewPooledConnection.java:772)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.markClosedProxyConnection(NewPooledConnection.java:402)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:87)
+		... 14 more
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3119)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3573)
+	... 22 more
+
+мар. 02, 2024 11:35:28 AM net.sf.l2j.gameserver.model.item.instance.ItemInstance restoreAttributes
+SEVERE: Could not restore augmentation data for item Apprentice's Stockings (461) from DB: Communications link failure
+
+The last packet successfully received from the server was 514 039 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 514 039 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3673)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4113)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2324)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:456)
+	at net.sf.l2j.gameserver.model.item.instance.ItemInstance.restoreAttributes(ItemInstance.java:716)
+	at net.sf.l2j.gameserver.model.item.instance.ItemInstance.restoreFromDb(ItemInstance.java:912)
+	at net.sf.l2j.gameserver.model.itemcontainer.Inventory.restore(Inventory.java:956)
+	at net.sf.l2j.gameserver.model.itemcontainer.PcInventory.restore(PcInventory.java:621)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.<init>(Player.java:610)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.restore(Player.java:5117)
+	at net.sf.l2j.gameserver.network.L2GameClient.loadCharFromDisk(L2GameClient.java:406)
+	at net.sf.l2j.gameserver.network.clientpackets.CharacterSelected.runImpl(CharacterSelected.java:55)
+	at net.sf.l2j.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:50)
+	at net.sf.l2j.gameserver.network.L2GameClient.run(L2GameClient.java:749)
+	at net.sf.l2j.commons.concurrent.ThreadPool$TaskWrapper.run(ThreadPool.java:248)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3119)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3573)
+	... 22 more
+
+мар. 02, 2024 11:35:28 AM net.sf.l2j.gameserver.model.itemcontainer.ItemContainer restore
+WARNING: could not restore container:
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 513 751 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1121)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3673)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4113)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2324)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:456)
+	at net.sf.l2j.gameserver.model.itemcontainer.ItemContainer.restore(ItemContainer.java:529)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.getWarehouse(Player.java:2033)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.<init>(Player.java:611)
+	at net.sf.l2j.gameserver.model.actor.instance.Player.restore(Player.java:5117)
+	at net.sf.l2j.gameserver.network.L2GameClient.loadCharFromDisk(L2GameClient.java:406)
+	at net.sf.l2j.gameserver.network.clientpackets.CharacterSelected.runImpl(CharacterSelected.java:55)
+	at net.sf.l2j.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:50)
+	at net.sf.l2j.gameserver.network.L2GameClient.run(L2GameClient.java:749)
+	at net.sf.l2j.commons.concurrent.ThreadPool$TaskWrapper.run(ThreadPool.java:248)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3119)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3573)
+	... 20 more
+

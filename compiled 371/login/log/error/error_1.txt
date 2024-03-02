@@ -1,8 +1,8 @@
-мар. 02, 2024 10:13:51 AM net.sf.l2j.loginserver.LoginController retrieveAccountInfo
+мар. 02, 2024 11:33:48 AM net.sf.l2j.loginserver.LoginController retrieveAccountInfo
 WARNING: Exception while retrieving account info for 'sperma3'!
 com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
-The last packet successfully received from the server was 429 268 milliseconds ago.  The last packet sent successfully to the server was 2 milliseconds ago.
+The last packet successfully received from the server was 416 088 milliseconds ago.  The last packet sent successfully to the server was 3 milliseconds ago.
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -27,7 +27,7 @@ Caused by: java.io.EOFException: Can not read response from server. Expected to 
 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3573)
 	... 13 more
 
-мар. 02, 2024 10:13:53 AM net.sf.l2j.loginserver.LoginController canCheckin
+мар. 02, 2024 11:34:16 AM net.sf.l2j.loginserver.LoginController canCheckin
 WARNING: Could not finish login process!
 java.sql.SQLException: Could not retrieve transation read-only status server
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1078)
@@ -47,9 +47,24 @@ java.sql.SQLException: Could not retrieve transation read-only status server
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.sql.SQLException: An SQLException was provoked by the following failure: java.util.ConcurrentModificationException
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:118)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:77)
+		at com.mchange.v2.sql.SqlUtils.toSQLException(SqlUtils.java:74)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:112)
+		at net.sf.l2j.loginserver.LoginController.canCheckin(LoginController.java:251)
+		... 5 more
+	Caused by: java.util.ConcurrentModificationException
+		at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1605)
+		at java.base/java.util.HashMap$KeyIterator.next(HashMap.java:1628)
+		at com.mchange.v2.c3p0.stmt.GooGooStatementCache.checkinAll(GooGooStatementCache.java:322)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.checkinAllCachedStatements(NewPooledConnection.java:772)
+		at com.mchange.v2.c3p0.impl.NewPooledConnection.markClosedProxyConnection(NewPooledConnection.java:402)
+		at com.mchange.v2.c3p0.impl.NewProxyConnection.close(NewProxyConnection.java:87)
+		... 6 more
 Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
 
-The last packet successfully received from the server was 632 915 milliseconds ago.  The last packet sent successfully to the server was 1 milliseconds ago.
+The last packet successfully received from the server was 444 522 milliseconds ago.  The last packet sent successfully to the server was 0 milliseconds ago.
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
