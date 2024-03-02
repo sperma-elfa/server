@@ -1,0 +1,18 @@
+[27-02-2024 16:57:47]	INFO	---------------------------------------------------------------------=[ aCis ]
+[27-02-2024 16:57:47]	INFO	Loading loginserver configuration files.
+[27-02-2024 16:57:48]	INFO	MLog clients using java 1.4+ standard logging.
+[27-02-2024 16:57:48]	INFO	Initializing c3p0-0.9.5-pre5 [debug? false; trace: 5]
+[27-02-2024 16:57:48]	INFO	----------------------------------------------------------=[ LoginController ]
+[27-02-2024 16:57:48]	INFO	Loading LoginController...
+[27-02-2024 16:57:49]	INFO	Cached 10 KeyPairs for RSA communication.
+[27-02-2024 16:57:49]	INFO	Stored 20 keys for Blowfish communication.
+[27-02-2024 16:57:49]	INFO	Loaded 127 server names.
+[27-02-2024 16:57:49]	INFO	Loaded 0 registered gameserver(s).
+[27-02-2024 16:57:49]	INFO	Cached 10 RSA keys for gameserver communication.
+[27-02-2024 16:57:49]	INFO	-----------------------------------------------------------------=[ Ban List ]
+[27-02-2024 16:57:49]	INFO	Loaded 0 banned IP(s).
+[27-02-2024 16:57:49]	INFO	-------------------------------------------------=[ IP, Ports & Socket infos ]
+[27-02-2024 16:57:49]	INFO	Listening for gameservers on 192.168.0.128:9014
+[27-02-2024 16:57:49]	INFO	Loginserver ready on 192.168.0.128:2106
+[27-02-2024 16:57:49]	INFO	--------------------------------------------=[ Waiting for gameserver answer ]
+[27-02-2024 16:58:20]	INFO	Auto created account '12'.
